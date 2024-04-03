@@ -1,3 +1,5 @@
+
+
 # operacoes numericas
 faturamento = 1000
 custo = 700
@@ -21,7 +23,7 @@ print(restituicao)
 tempo_em_meses = 160
 tempo_em_anos = int(tempo_em_meses / 12)
 print(tempo_em_anos , "anos")
-print(tempo_em_meses % 12)
+print(tempo_em_meses % 12, "meses")
 
 numero = 123.97
 print(round(numero))
