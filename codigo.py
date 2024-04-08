@@ -1,3 +1,4 @@
+
 # faturamento numero  -> inteiro
 
 faturamento = 1200
