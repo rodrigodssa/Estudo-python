@@ -32,6 +32,11 @@ margem = lucro / faturamento
 print(f"Faturamento: R${faturamento:,.2f}\n Custo: {custo}\n Lucro: {lucro}") # \n = enter dentro de um texto no print 
 print(f"Margem: {margem:.1%}")
 
+
+
+
+
+
 # exercicios
 
 nome = "Rodrigo ALmeida"
@@ -47,10 +52,15 @@ posicao = nome.find (" ")
 primeiro_nome = nome[:posicao]
 print(primeiro_nome)
 
-# construa uma mensagem: Usuario primeiro_nome cadastrado com sucesso com email
+# construa uma mensagem: Usuario primeiro_nome cadastrado com sucesso com email tal
 mensagem = f"usuario {primeiro_nome} cadastrado com sucesso com email: {email}"
 print(mensagem)
 
+# construa uma mensagem: Enviamos um link de confirmacao para o email R***@gmail.com
+primeira_letra = email[0]
+print(primeira_letra)
+mensagem2 = f"Enviamos um link de confirmação para o email {primeira_letra} ***{servidor}"
+print(mensagem2)
 
 
 
