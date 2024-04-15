@@ -9,7 +9,7 @@ print("Faturamento:" + str(faturamento) + ", Custo:" + str(custo) + ", Lucro: " 
 email = "EMAIL_falso@gmail.com"
 
 print(email.lower())
-print(email.find("@")) # -1, se não encontrar o elemento. Se encontrar: a posição
+print(email.find("@")) # -1, se não encontrar o elemento. Se encontrar o elemento: a (posição)
 
 posicao = email.find("@")
 servidor = email[posicao+1:]
@@ -24,8 +24,8 @@ email_trocado = email.replace("gmail.com", "hotmail.com")
 print(email_trocado)
 
 nome = "Rodrigo Almeida"
-print(nome.capitalize()) # Rodrigo Almeida
-print(nome.title()) # Rodrigo Almeida
+print(nome.capitalize()) # capitalize coloca 1 letra em maiusculo ex Rodrigo almeida
+print(nome.title()) # title coloca 1 letra de cada palvra em maisculo ex Rodrigo Almeida
 
 # especiais - formatação numerico
 margem = lucro / faturamento
