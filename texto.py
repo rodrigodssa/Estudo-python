@@ -36,3 +36,5 @@ print(f"Margem: {margem:.1%}")
 
 
 
+
+
