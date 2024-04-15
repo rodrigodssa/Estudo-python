@@ -29,7 +29,10 @@ print(nome.title()) # title coloca 1 letra de cada palvra em maisculo ex Rodrigo
 
 # especiais - formatação numerico
 margem = lucro / faturamento
-print(f"Faturamento: R${faturamento:,.2f}\n Custo: {custo}\n Lucro: {lucro}")
+print(f"Faturamento: R${faturamento:,.2f}\n Custo: {custo}\n Lucro: {lucro}") # \n = enter dentro de um texto no print 
 print(f"Margem: {margem:.1%}")
+
+
+
 
 
